@@ -21,17 +21,13 @@ const App = () => {
   const [fruitsOnCart, cart] = useState([]);
 
   const [finishVisible, setFinish] = useState(false);
+	
+
 
   useEffect(() => {
     const fetchFruits = async () => {
 			const {data} = await axios.get(
-				"https://www.fruityvice.com/api/fruit/all",{
-          headers: {
-            "Access-Control-Allow-Origin": "*",
-            'Access-Control-Allow-Methods':'GET,PUT,POST,DELETE,PATCH,OPTIONS'
-          },
-          responseType: "json",
-        }
+				"https://www.fruityvice.com/api/fruit/all"
 			);
       addFruits(data);
 		};
