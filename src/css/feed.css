@@ -1,0 +1,10 @@
+.grid{   
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    grid-template-columns: 0.6fr 0.6fr 0.6fr 0.6fr;
+    grid-gap: 90px;
+    height: 80%;
+    margin: 2%;
+    
+}

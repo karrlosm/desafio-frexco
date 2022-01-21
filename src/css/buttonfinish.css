@@ -1,0 +1,19 @@
+.button-finish{
+    border: none;
+    color: #eee;
+    font-size: 14px;
+    width: 170px;
+    height: 50px;
+    padding: 5%;
+    margin-bottom: 20%;
+    background-color: #92baee;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 2%;
+    transition: all 0.3s ease;
+}
+
+.button-finish:hover{
+    background-color: #33aa04;
+
+}
