@@ -29,4 +29,12 @@ Para esse sistema, optei por dividir os arquivos nas seguintes camadas:
 - localhost:3000/ : Home do sistema - Listagem dos produtos;
 - localhost:3000/cart : Carrinho de compras.
 
+
+# Para executar
+
+No terminal do sistema, na IDE, deve-se realizar os seguintes comandos:
+
+- npm i (para instalação do node modules);
+- npm start (para startar o sistema no navegador).
+
 Espero que eu tenha conseguido alcançar as expectativas. :)
