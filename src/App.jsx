@@ -103,7 +103,7 @@ const App = () => {
               {fruitsOnCart.length === 0 ? <ClearCart /> : null}
               <Cart fruitsOnCart={fruitsOnCart} removeFruit={removeFruit}/>
               <div className='buttons-on-cart'>
-                {fruitsOnCart.length > 0  ? <button className='clear' onClick={clearCart}>impar carrinho</button> : null}
+                {fruitsOnCart.length > 0  ? <button className='clear' onClick={clearCart}>Limpar carrinho</button> : null}
                 {finishVisible ? <ButtonFinish fruitsOnCart={fruitsOnCart}/> : null}
               </div>
               
